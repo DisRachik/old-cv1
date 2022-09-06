@@ -18,3 +18,9 @@ function multiply() {
   return total;
 }
 ```
+
+### Work experience:
+*In the process of filling...*
+
+### Education and courses:
+- My first course in programming 1
