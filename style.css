@@ -261,6 +261,9 @@
   align-items: center;
   text-decoration: none;
 }
+.fotter-rs__img1 {
+  width: 32px;
+}
 .fotter-git p {
   margin: 10px;
   color: #fb6d3a;
@@ -271,4 +274,55 @@
 .fotter-rs__img {
   width: 86px;
   height: 32px;
+}
+
+@media (max-width: 992px) {
+  .menu-link {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .main-content {
+    padding-left: 30px;
+  }
+  .menu-link {
+    margin-left: 10px;
+  }
+  .menu-item {
+    height: 60px;
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 641px) {
+  .photo-xs {
+    display: none;
+  }
+  .code code {
+    margin-left: 10px;
+    max-width: 300px;
+    padding-top: 5px;
+    font-size: 12px;
+  }
+}
+@media (max-width: 641px) {
+  .main {
+    flex-direction: column;
+  }
+  .photo-xs {
+    display: block;
+    max-width: 370px;
+    margin-bottom: 50px;
+  }
+  .photo-xs img {
+    width: 100%;
+  }
+  .photo {
+    display: none;
+  }
+  .sidebar {
+    min-width: 100%;
+  }
+  .projects-list {
+    max-width: 90%;
+  }
 }
