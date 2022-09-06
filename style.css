@@ -243,3 +243,32 @@
   font-size: 14px;
   line-height: 24px;
 }
+
+.fotter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  background-color: #1e2939;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+.fotter-git a {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-decoration: none;
+}
+.fotter-git p {
+  margin: 10px;
+  color: #fb6d3a;
+  }
+.fotter-year {
+  color: #ffffff;
+}
+.fotter-rs__img {
+  width: 86px;
+  height: 32px;
+}
